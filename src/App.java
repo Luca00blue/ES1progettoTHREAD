@@ -11,6 +11,12 @@ public class App {
     c2.start();
     c3.start();
     c4.start();
+
+    c1.join();
+    c2.join();
+    c3.join();
+    c4.join();
+    System.out.println("gara finita");
     }
 }
 
